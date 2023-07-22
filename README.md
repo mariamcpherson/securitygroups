@@ -24,7 +24,7 @@ In this tutorial, we will experiment with Network Security Groups.
 <h2>Operating Systems Used </h2>
 
 - Windows 10 (21H2)
-- Ubuntu Server 20.04
+- Windows Server 2022
 
 <h2>High-Level Steps</h2>
 
