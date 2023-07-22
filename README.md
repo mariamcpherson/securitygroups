@@ -26,15 +26,32 @@ In this tutorial, we will experiment with Network Security Groups.
 - Windows 10 (21H2)
 - Windows Server 2022
 
+<h2>Pre-requisites</h2>
+
+- Direct Directory installed in Windows Server VM in Azure and set as Domain Controller
+- Windows 10 VM in Azure joined to the Domain Controller
+
+
 <h2>High-Level Steps</h2>
 
-- Step 1
+- Create a Security Group in Windows Server VM
 - Step 2
 - Step 3
 - Step 4
 
 <h2>Actions and Observations</h2>
 
+<p>
+- Step 1:
+<p>
+We will start by creating a new Organizational Unit, named _SECURITY_GROUPS, for organization purposes, and inside we will crate a new Security Group, named ACCOUNTANTS.
+</p>
+<p>
+<p>
+<p>
+<p>
+<p>
+<p>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
