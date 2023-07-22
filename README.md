@@ -35,21 +35,41 @@ In this tutorial, we will experiment with Network Security Groups.
 <h2>High-Level Steps</h2>
 
 - Create a Security Group in Windows Server VM
-- Step 2
-- Step 3
+- Create "accounting" folder in Windows Server M and set permissions
+- Assign User to Security Group
 - Step 4
 
 <h2>Actions and Observations</h2>
 
 <p>
-- Step 1:
+- Step 2:
 <p>
-We will start by creating a new Organizational Unit, named _SECURITY_GROUPS, for organization purposes, and inside we will crate a new Security Group, named ACCOUNTANTS.
+We will start by creating a new Organizational Unit, named _SECURITY_GROUPS, for organization purposes, and inside we will crate a new Security Group, named ACCOUNTANTS. Once you've created the Organizational Unit (Explained in the Active Directory Tutorial), right-click on it and select New → Group. Name it ACCOUNTANTS, and in Group Type, select Security.
 </p>
+
+<img src="https://github.com/mariamcpherson/securitygroups/assets/139581822/bc274955-fb5e-42b8-8eb8-d2bd92c0c4d3"/>
+</p>
+
+<img src="https://github.com/mariamcpherson/securitygroups/assets/139581822/8a36a6bd-2552-4545-920b-187946f85091"/>
+</p>
+
 <p>
+- Step 2:
 <p>
+Now we will create a new file folder in the Domain Controller VM (Windows Server) named "accounting" in C:\, and then we will assign the sharing permissions so that only members of the ACCOUNTANTS security group have read and write access to the files within that folder. In order to assign the corresponding permission, right click on the "accounting" folder, Properties → Sharing → Share..., then type ACCOUNTANTS, and assign Read/Write.
+</p>
+
 <p>
+<img src="https://github.com/mariamcpherson/securitygroups/assets/139581822/c07821bf-a633-42a8-97b8-68b4e66a8844"/>
+</p>
+
 <p>
+- Step 3:
+</p>
+
+<p>
+We have no users inside the ACCOUNTANTS Security Group to access the "accounting" folder. Let's test that we did everything correctly and make one of our Domain Users a Member of the ACCOUNTANTS security group. In my case, I chose 
+</p>
 <p>
 <p>
 <p>
