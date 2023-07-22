@@ -85,6 +85,6 @@ We are going to use the credentials for our user who was assigned to the ACCOUNT
 </p>
 
 <p>
-<img src="https://github.com/mariamcpherson/securitygroups/assets/139581822/3140ae52-56ad-43d4-bdea-bad28c902ede"/>
+<img src="https://github.com/mariamcpherson/securitygroups/assets/139581822/9cfac5d8-a07d-4303-a5bd-309417b2f232"/>
 </p>
 <br />
